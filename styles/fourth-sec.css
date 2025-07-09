@@ -1,0 +1,51 @@
+.fourth-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div {
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.fourth-sec-right {
+    width: 45%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.fourth-sec-left {
+    width: 45%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.testimony1,
+.testimony2 {
+    width: 90%;
+    height: 90vh;
+    object-fit: contain;
+}
+
+h5 {
+    margin: 20px 0;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.information {
+    width: 80%;
+}

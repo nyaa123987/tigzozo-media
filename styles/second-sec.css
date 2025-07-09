@@ -1,0 +1,159 @@
+.second-sec {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-sec-main {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.second-sec-left,
+.second-sec-right {
+    width: 48%;
+}
+
+.paragraph {
+    margin: 0 0 16px 0;
+    width: 90%;
+}
+
+.paragraph2 {
+    margin: 0 0 20px 18px;
+    width: 80%;
+}
+
+.sec-sec-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+}
+
+.sec-sec-1st {
+    width: 48%;
+    display: flex;
+    align-items: start;
+}
+
+.sec-sec-2nd {
+    width: 48%;
+    display: flex;
+    align-items: end;
+}
+
+.sec-sec-image {
+    width: 100%;
+}
+
+.img {
+    width: 90%;
+    height: 47vh;
+    margin-bottom: 15px;
+}
+
+.find-more {
+    margin-left: 18px;
+}
+
+@media (max-width: 1024px) {
+    .second-sec {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .second-sec-main {
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .second-sec-left,
+    .second-sec-right {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .paragraph,
+    .paragraph2 {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .sec-sec-div {
+        height: 40vh;
+    }
+
+    .img {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .find-more {
+        margin-left: 0;
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .second-sec {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .second-sec-main {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-sec-left,
+    .second-sec-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .paragraph,
+    .paragraph2 {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-sec-div {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .sec-sec-1st,
+    .sec-sec-2nd {
+        width: 100%;
+        align-items: center;
+    }
+
+    .sec-sec-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .find-more {
+        margin-left: 0;
+        font-size: 14px;
+        padding: 6px 12px;
+        display: block;
+        margin: 0 auto;
+    }
+}

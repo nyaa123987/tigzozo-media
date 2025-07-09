@@ -1,0 +1,71 @@
+.third-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.third-sec-main {
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-sec-left {
+    background-image: url(../images/wedding-dance.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+}
+
+.arrow {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.p {
+    padding-left: 15px;
+}
+
+.p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.third-sec-middle {
+    background-color: #742296;
+    padding: 15px;
+    height: 67vh;
+    width: 30%;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.third-sec-right {
+    background-image: url(../images/blank.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+}
